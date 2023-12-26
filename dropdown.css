@@ -1,0 +1,43 @@
+/* img{
+    margin-top: 20px;
+     position: relative;  
+      position: absolute;
+     position: sticky;
+    top: 0px;
+    left: 0px;
+} */
+body{
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+nav{
+    background-color: yellow;
+}
+#cont{
+      display: flex;
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    display: block;
+}
+a:hover{
+    background-color:white;
+    color: orangered;
+}
+#menu{
+    list-style: none;
+    padding: 0;
+    position: absolute;
+    display: none;
+    
+}
+#drop:hover #menu{
+    display: block;
+}
+    
