@@ -1,0 +1,15 @@
+body{
+    font-family: 'Sevillana', cursive;
+}
+.fa-user{
+    position: absolute;
+    top:10%;
+    left: 5%;
+}
+#fname-cont{
+    position: relative;
+}
+#fname{
+    height: 30px;
+    padding-left: 30px;
+}
